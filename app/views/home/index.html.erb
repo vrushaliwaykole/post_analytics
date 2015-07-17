@@ -1,0 +1,7 @@
+<%= form_for :details,{url: :analyze} do |f| %>
+	<%= f.label :userid%>
+	<%= f.text_field :userid%>
+	<%= f.label :username%>
+	<%= f.text_field :username%>
+	<%= f.submit "Analyze"%>
+<% end %>
